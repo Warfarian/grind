@@ -120,18 +120,18 @@ class Node {
     }
   
     length() {
-      let counter = 0;
+      let length = 0;
       this.bucketsArray.forEach((bucket) => {
         let current = bucket;
         if (bucket !== null) {
-          counter += 1;
+          length += 1;
           while (current.next !== null) {
-            counter += 1;
+            length += 1;
             current = current.next;
           }
         }
       });
-      return counter;
+      return length;
     }
   
     clear() {
