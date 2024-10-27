@@ -185,16 +185,16 @@ class Node {
     }
   }
 
-// const map = new HashMap();
-// map.add("apple", 5);
-// map.add("banana", 3);
-// map.add("apple", 10); // Updates "apple" to 10
+const map = new HashMap();
+map.add("apple", 5);
+map.add("banana", 3);
+map.add("apple", 10); // Updates "apple" to 10
 
-// console.log(map.get("apple")); // Outputs: 10
-// console.log(map.has("banana")); // Outputs: true
-// console.log(map.keys()); // Outputs: ["apple", "banana"]
-// console.log(map.values()); // Outputs: [10, 3]
-// console.log(map.entries()); // Outputs: [["apple", 10], ["banana", 3]]
+console.log(map.get("apple")); // Outputs: 10
+console.log(map.has("banana")); // Outputs: true
+console.log(map.keys()); // Outputs: ["apple", "banana"]
+console.log(map.values()); // Outputs: [10, 3]
+console.log(map.entries()); // Outputs: [["apple", 10], ["banana", 3]]
 
-// map.remove("banana");
-// console.log(map.has("banana")); // Outputs: false
+map.remove("banana");
+console.log(map.has("banana")); // Outputs: false
