@@ -232,7 +232,7 @@ const generateArr = (length = 10) => {
  };
  
  const arr = generateArr(15);
- console.log("Initial Array:", arr);
+ console.log("Initial Array:", arr);2
  
  let tree = new Tree(arr);
  console.log("Initial Tree:");
